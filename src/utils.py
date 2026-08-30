@@ -567,7 +567,7 @@ def create_solution_side(song_name, artist, year, all_years, output_path):
 def create_cards_pdf(cards_folder, output_pdf_path):
     """
     Create print-ready PDF with alternating front/back pages.
-    4x5 grid (20 cards per page), 5cm x 5cm cards, ready for duplex printing.
+    3x4 grid (12 cards per page), 6.5cm x 6.5cm cards, ready for duplex printing.
     """
     settings = get_settings()
     c = canvas.Canvas(output_pdf_path, pagesize=A4)
@@ -583,8 +583,8 @@ def create_cards_pdf(cards_folder, output_pdf_path):
     # Calculate layout
     total_width = cards_per_row * card_size + (cards_per_row - 1) * gap_size
     total_height = cards_per_col * card_size + (cards_per_col - 1) * gap_size
-    margin_x = (width - total_width) / 2
-    margin_y = (height - total_height) / 2
+    margin_x = (width - total_width) / 1
+    margin_y = (height - total_height) / 1
     
     # Get sorted card files
     qr_images = sorted([f for f in os.listdir(cards_folder) if f.endswith('_qr.png')],
