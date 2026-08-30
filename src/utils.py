@@ -89,11 +89,11 @@ DEFAULT_DESIGN_SETTINGS = {
     "qr_quiet_zone": 2, 
     "qr_backplate_padding": 40,
     "qr_backplate_radius": 20,
-    "qr_size_ratio": 0.45,
+    "qr_size_ratio": 0.42,
     
     "neon_ring_opacity": 1.0,
     "neon_ring_thickness": 12,
-    "neon_ring_count": 8,
+    "neon_ring_count": 16,
     
     "qr_title": "",
     "qr_title_enabled": False,
