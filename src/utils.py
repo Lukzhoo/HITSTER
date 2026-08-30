@@ -961,7 +961,7 @@ def create_solution_side_in_memory(song_name, artist, year, all_years, settings_
     year_text = display_year
     
     # Draw centered text
-    gap = 400
+    gap = 600
     center_x = size / 2
     center_y = size / 2
     
