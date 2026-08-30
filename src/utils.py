@@ -931,8 +931,8 @@ def create_solution_side_in_memory(song_name, artist, year, all_years, settings_
     draw = ImageDraw.Draw(img)
     
     font_year = get_font_for_setting(settings, 380)
-    font_artist = get_font_for_setting(settings, 110)
-    font_song = get_font_for_setting(settings, 100)
+    font_artist = get_font_for_setting(settings, 200)
+    font_song = get_font_for_setting(settings, 200)
     
     # Choose text color based on background luminance for contrast
     if ink_saving_mode:
