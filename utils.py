@@ -574,10 +574,10 @@ def create_cards_pdf(cards_folder, output_pdf_path):
     width, height = A4
     
     # Card configuration
-    card_size = 5 * cm
+    card_size = 6,5 * cm
     gap_size = 0.2 * cm
-    cards_per_row = 4
-    cards_per_col = 5
+    cards_per_row = 3
+    cards_per_col = 4
     cards_per_page = cards_per_row * cards_per_col
     
     # Calculate layout
