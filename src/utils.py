@@ -718,7 +718,7 @@ def render_card_background(img, settings, side="qr", seed=42):
         
         random.seed(seed)
         neon_colors = settings['neon_colors']
-        ring_count = settings.get('neon_ring_count', 8)
+        ring_count = settings.get('neon_ring_count', 16)
         thickness = settings.get('neon_ring_thickness', 12)
         
         for i in range(ring_count):
