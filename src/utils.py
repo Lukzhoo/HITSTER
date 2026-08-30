@@ -930,9 +930,9 @@ def create_solution_side_in_memory(song_name, artist, year, all_years, settings_
         draw.rectangle([(0, 0), (size - 1, size - 1)], outline=color_int, width=border_width)
     draw = ImageDraw.Draw(img)
     
-    font_year = get_font_for_setting(settings, 380)
-    font_artist = get_font_for_setting(settings, 200)
-    font_song = get_font_for_setting(settings, 200)
+    font_year = get_font_for_setting(settings, 400)
+    font_artist = get_font_for_setting(settings, 150)
+    font_song = get_font_for_setting(settings, 140)
     
     # Choose text color based on background luminance for contrast
     if ink_saving_mode:
