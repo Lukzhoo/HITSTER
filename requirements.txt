@@ -1,0 +1,9 @@
+beautifulsoup4
+numpy
+pandas
+pillow
+qrcode
+reportlab
+requests
+python-dotenv
+streamlit>=1.52.2
